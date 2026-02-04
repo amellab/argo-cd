@@ -1,7 +1,8 @@
 # Getting Started
 
 > [!TIP]
-> This guide assumes you have a grounding in the tools that Argo CD is based on. Please read [understanding the basics](understand_the_basics.md) to learn about these tools.
+> This guide assumes basic familiarity with Kubernetes concepts such as Pods, Services, Deployments, and the `kubectl` CLI.
+> If you are new to Kubernetes, please read [understanding the basics](understand_the_basics.md) before continuing.
 
 ## Requirements
 
