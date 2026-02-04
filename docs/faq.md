@@ -9,8 +9,8 @@ Argo CD can't delete an app if it cannot generate manifests. You need to either:
 
 ## Why is my application still `OutOfSync` immediately after a successful Sync?
 
-See [Diffing](user-guide/diffing.md) documentation for reasons resources can be OutOfSync, and ways to configure Argo CD
-to ignore fields when differences are expected.
+See [Diffing](user-guide/diffing.md) documentation for common reasons resources can appear OutOfSync, such as
+auto-generated fields or controller-managed metadata, and ways to configure Argo CD to ignore expected differences.
 
 ## Why is my application stuck in `Progressing` state?
 
